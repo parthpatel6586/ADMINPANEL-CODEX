@@ -9,7 +9,7 @@ export default function Login(){
   const navigate = useNavigate()
 
   useEffect(()=> {
-    // ensure demo user exists
+  
     ensureDefaultUser()
     const u = currentUser()
     if(u) navigate('/dashboard', { replace: true })

@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 
 import Nav from './components/Nav'
 import TopBar from './components/TopBar'
-import Home from './pages/Home'
+// import Home from './pages/Home'
 import About from './pages/About'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
@@ -12,7 +12,7 @@ import EmployeesLayout from './pages/employees/EmployeesLayout'
 
 import ProtectedRoute from './components/ProtectedRoute'
 
-// import EmployeesLayout from './pages/employees/EmployeesLayout'
+import EmployeesLayout from './pages/employees/EmployeesLayout'
 import EmployeesList from './pages/employees/EmployeesList'
 import EmployeeAdd from './pages/employees/EmployeeAdd'
 import EmployeeEdit from './pages/employees/EmployeeEdit'

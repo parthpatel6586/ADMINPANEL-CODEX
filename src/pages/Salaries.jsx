@@ -38,8 +38,8 @@ export default function Salaries(){
             ))}
             {employees.length===0 && <tr><td colSpan="3" className="small">No employees.</td></tr>}
           </tbody>
-        </table>
-        <p className="small">Note: This is a frontend demo. Real payroll needs tax, deductions, allowances and legal checks.</p>
+        </table>Note
+        <p className="small"></p>
       </div>
     </div>
   )
